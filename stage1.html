@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html >
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Emmanuel Akowuah's Nano Notes</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- Everything in the <head> element is extra information for the browser -->
+  </head>
+
+  <body>
+   <div class="lesson"> <!-- All of lesson 1 is enclosed in one master div; will do the same for each lesson -->
+    <h1 class="heading">LESSON 1 NOTES</h1>
+    
+    <!-- To add logical structure, each logical section will be put into it's own div-->
+    <!-- This is section 1, cut out from lecture -->
+
+      <h2 class="sub-heading">WHAT TO KEEP (from lectures)</h2>
+        <div class="topic-header">
+          <b>1 - What a Web Page is</b>
+          <div class="topic-discussion">
+            <br>A web page is a text document written in a language called HTML. Web browsers read these documents, and then interpret and display them.
+          </div>
+        </div>
+
+        <div class="topic-header">
+          <br><br><b>2 - How Coding Works</b>
+          <div class="topic-discussion">
+            <br>Coding happens when programmers write text in a language that a computer can understand. The computer can then follow the instructions the programmer wrote. 
+          </div>
+        </div>
+
+        <div class="topic-header">
+          <br><br><b>3 - Computers are Stupid</b>
+          <div class="topic-discussion">
+            <br>Programmers need to write exactly the way a computer understands (also known as writing with correct "syntax"). For example, if you forget to close a &lt b &gt tag, the computer won't be able to figure out what you had intended to make bold. This "stupidity" can be very frustrating, but it also gives programmers incredible power: if you know how to talk to a computer than you can tell it to do anything you want.
+          </div>
+        </div>
+
+        <div class="topic-header">
+          <br><br><b>4 - Programmers Can't Remember Everything</b>
+          <div class="topic-discussion">
+            <br>There are too many details to keep everything in your head. And that's okay. If you forget how to make text italic in HTML, you can always just look it up
+          </div>
+        </div>
+
+        <div class="topic-header">
+          <br><br><b>5 - Basic HTML Vocabulary</b>
+          <div class="topic-discussion">
+          <br>You will be using HTML in the next few lessons, so it will be helpful if you're comfortable with the jargon.
+              <ul class="bullet-list">
+                <li><b>Tag:</b> An HTML tag is always contained within angled brackets. Most tags have an opening tag <b>&lt p &gt</b> for example and a closing tag, <b>&lt /p &gt</b>. Some tags (called "void" tags) do not require a closing tag (like the <b>&lt br &gt</b> tag).
+
+                <li><b>Element:</b> An HTML element refers to everything within a set of opening and closing tags.
+
+                <li><b>Attribute:</b> This is a property of an HTML element. For example, to set the href attribute of an anchor tag to the Udacity URL, you would write &lta href="www.udacity.com"&gt
+              </ul>
+          </div>
+        </div>
+
+      <h2 class="sub-heading">MY VERSION - MORE NOTES</h2>
+        <p class="independent">
+          <ol class="numbered-list">
+            <li><h3>The web</h3></li>
+            <li><h3>HTML</h3></li>
+            <li><h3>URLs</h3></li>
+            <li><h3>HTTP</h3></li>
+            <li><h3>Web Apps</h3></li>
+          </ol>
+        </p>
+
+        <div class="topic-header">
+          <b>1.	The Web:</b>
+          <div class="topic-discussion">
+          <br>A collection of HTML docs. Glued together by links. Major players are: You, Internet, Web Servers.  Traffic is transferred using a protocol called HTTP.  You make request through browser to retrieve files from servers.
+          </div>
+        </div>
+
+        <div class="topic-header">
+          <br><br><b>2.	HTML:</b>
+          <div class="topic-discussion">
+          <br>The heart of the web; Made up of:
+          <br>&nbsp&nbsp- txt content
+          <br>&nbsp&nbsp- markup (plain text is plain text in html.  To let plain text look different, you need to use markup)
+          <br>&nbsp&nbsp- references to other documents
+          <br>&nbsp&nbsp- links to other pages
+          </div> 
+        </div> 
+
+        <div class="topic-header">
+          <br><br><b>&nbsp&nbsp&nbsp&nbsp2a. Markup</b>
+          <div class="topic-discussion">
+          <br>Consists of elements. Elements are made up of opening and closing tags and the substance in between them.
+          <p><b>&nbsp&nbspTags:</b></p>
+            <ul>
+              <li><b>&lt b &gt</b> tag: it bolds
+              <li><b>&lt strong &gt</b> tag: similar to bold
+              <li><b>&lt em &gt</b> tag: it italicizes
+              <li><b>&lt form &gt</b> tag: creates form for user input
+            </ul>  
+          </div>
+        </div>
+        
+        <div class="topic-header">
+          <br><b>&nbsp&nbsp&nbsp&nbsp2b. HTML Attributes &lt tag attr = “value”&gt contents &lt /tag &gt</b>
+          <div class="topic-discussion">
+            <ul class="numbered-list">
+              <li><b>Anchor tag:</b>  Used for making links &lta href=www.reddit.com&gt derp  &lt/a&gt
+              <li><b>Image tag:</b> Used for referencing images &ltimg src= “url” alt = “text”&gt 
+              <br>NOTE: Image tags have no closing tags. It’s called a void tag (i.e. no closing tag).
+            </ul>
+         
+          <br>Another tag without a closing tag is <b>&ltbr&gt</b>.  The break tag is used to move content to the next line. The &ltp&gt &lt/p&gt tag also moves content to another line.  It defines paragraphs (a block, not just an inline).  The <b>p</b> tag is NOT a void tag.
+          </div>
+        </div>
+          
+        <div class="topic-header">      
+          <br><br><b>&nbsp&nbsp&nbsp&nbsp2c. Container tags</b> 
+          <div class="topic-discussion">
+            <ul class="numbered-list">
+              <li><b>Span tag: &ltspan&gt &lt/span&gt</b>; span is a block tag (creates a block or space around the element.
+              <li><b>Div tag: &ltdiv&gt &lt/div&gt</b>; div is an inline tag (does not create a block around the element)
+            </ul> 
+          </div>
+        </div>
+   </div> <!-- This div closes the master div that encircles lesson 1 --> 
+
+
+    <!-- This is where lesson 2 starts-->
+    <!-- All of lesson 2 is enclosed in one master div; will do the same for each lesson -->
+   <div class="lesson">
+    <h1 class="heading">LESSON 2 NOTES</h1>
+  
+      <p class="independent">
+        HTML is like a house with STRUCTURES/rooms; CSS is the STYLING that is added to the house.  There are RULES to follow when using HTML and TOOLS to help use HTML.
+        One good way to review HTML is using chrome developer tools.  Developer tools is accessible by pressing f12 in chrome.  Websites have a tree-like structure.
+        By clicking on elements of the tree, e.g. h1, img etc in google chrome developer mode, you can view more details about the elements such as pix size and border size of images.
+      </p>
+
+   <!-- This is where the separation of important things to take away in lesson 2 begins-->
+      <div class="topic-header">
+        <p>
+        <b>The important things to take away are:</b>
+        <div class="topic-discussion">
+         <ul class="numbered-list">
+           <li>HTML and CSS are both "languages"</li>
+           <li>HTML controls the "structure" of a web page</li>
+           <li>CSS controls the "style" of a page (how it looks)</li>
+           <li>When programmers talk about the "DOM" (Document Object Model) they are talking about the tree-like structure of a page</li>
+         </ul>
+        </div>
+        </p>
+      </div>
+  
+   <!-- This is where the separation of how the browser knows topic in lesson 2 begins-->
+      <div class="topic-header">
+        <p>
+        <b><br>How the browser knows:</b><br>
+        <div class="topic-discussion">
+          <b>HTML:</b>  HTML is the language of the internet.  The HTML language has specific rules that need to be followed just like typical languages have grammatical rules. HTML describes the structure and content of the webpage.  The building blocks of HTML is a “tag”.  The browser turns tags into elements. An element begins with a starting tag and end with an ending tag.  Everything between the tags is called content. The elements form a tree.
+       
+          <br><br><b>Tags</b> Each tag has a:
+            <ol class="bullet-list">
+             <li>name e.g. &lth1&gt.  The name tells us what kind of element will be created (e.g. a paragraph, block, image etc.)</li>
+             <li>some have attributes with values e.g. &ltli class= “article”&gt</li>  
+            </ol>
+           
+          <br><br><b>CSS:</b> CSS is another language.  It defines the style of a webpage e.g. size of font color, background, borders, positions etc.
+        </p>
+        </div>
+      </div>
+    
+        <p class="independent">
+        <br>To tie structure (i.e. HTML) and style (i.e. CSS), HTML must tell the browser what style to use and where to get it.
+        
+        <br> Once you understand the rules that govern how these languages work, you can look at an HTML code and get a pretty good understanding of how a webpage is laid out.
+
+        <br><br><b>Note:</b> Everything on webpages are actually boxes square spaces.  We create boxes using the div tab.
+       </p>
+   </div> <!-- This div closes the div that encirlcles lesson 2 -->
+  </body>
+</html>
